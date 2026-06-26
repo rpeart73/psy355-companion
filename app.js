@@ -78,7 +78,7 @@ var CSS = [
 (function(){ var s=document.createElement('style'); s.textContent=CSS; document.head.appendChild(s); })();
 
 /* ---------- state (saved on the student's own device) ---------- */
-var CKEY='bfs218-compare-v1';
+var CKEY='psy355-compare-v1';
 function loadCmp(){ try{ var a=JSON.parse(localStorage.getItem(CKEY)||'[]'); return Array.isArray(a)?a.slice(0,3):[]; }catch(e){ return []; } }
 function saveCmp(){ try{ localStorage.setItem(CKEY, JSON.stringify(CMP)); }catch(e){} }
 var CMP = loadCmp();
@@ -449,15 +449,16 @@ function saveCompareDoc(){
 }
 
 /* ---------- render dispatch ---------- */
+function homeBar(){ return '<a href="#/home" style="display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--hair);border-radius:8px;padding:8px 14px;font-size:.875rem;font-weight:600;color:var(--ink);text-decoration:none;margin-bottom:18px">&#8592; Return to Home</a>'; }
 function render(){
   var h=location.hash||'#/home', path=h.replace(/^#\//,'').split('?')[0], html, active;
   if(PREVPATH==='compare' && path!=='compare'){ CMP=[]; SHOWSYN=false; saveCmp(); }
   PREVPATH=path;
   if(path.indexOf('week/')===0){ active='home'; html=weekView(parseInt(path.split('/')[1],10)); }
-  else if(path==='reading'){ active='reading'; html=readingComp(); }
-  else if(path==='glossary'){ active='glossary'; html=glossary(); }
-  else if(path==='cards'){ active='cards'; html=cards(); }
-  else if(path==='compare'){ active='compare'; html=compareView(); }
+  else if(path==='reading'){ active='reading'; html=homeBar()+readingComp(); }
+  else if(path==='glossary'){ active='glossary'; html=homeBar()+glossary(); }
+  else if(path==='cards'){ active='cards'; html=homeBar()+cards(); }
+  else if(path==='compare'){ active='compare'; html=homeBar()+compareView(); }
   else { active='home'; html=home(); }
   renderNav(active); MAIN.innerHTML=html; MAIN.focus(); window.scrollTo(0,0);
 }
