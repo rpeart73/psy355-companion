@@ -84,6 +84,7 @@ function saveCmp(){ try{ localStorage.setItem(CKEY, JSON.stringify(CMP)); }catch
 var CMP = loadCmp();
 var SHOWSYN = false;
 var HQ = '', HL = 'phase';
+var PREVPATH = '';
 var CODE = (D.course||{}).code || 'PSY355';
 var RKEY = CODE.toLowerCase()+'-reading-v1';
 function loadR(){ try{ var o=JSON.parse(localStorage.getItem(RKEY)||'{}'); return o&&typeof o==='object'?o:{}; }catch(e){ return {}; } }
@@ -450,6 +451,8 @@ function saveCompareDoc(){
 /* ---------- render dispatch ---------- */
 function render(){
   var h=location.hash||'#/home', path=h.replace(/^#\//,'').split('?')[0], html, active;
+  if(PREVPATH==='compare' && path!=='compare'){ CMP=[]; SHOWSYN=false; saveCmp(); }
+  PREVPATH=path;
   if(path.indexOf('week/')===0){ active='home'; html=weekView(parseInt(path.split('/')[1],10)); }
   else if(path==='reading'){ active='reading'; html=readingComp(); }
   else if(path==='glossary'){ active='glossary'; html=glossary(); }
