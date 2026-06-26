@@ -326,9 +326,8 @@ window.PSY355 = {
    "abstract": "Richardson explains resilience through his Metatheory of Resilience and Resiliency, presenting it as a process, a personal journey through disruption and reintegration that moves in a series of choices toward optimal health. He centres the trough of disruption, the chaos of leaving homeostasis, as the key stage where helping professionals can guide a person to discover an innate resilient drive. He describes the three waves of resiliency inquiry and how popular theories such as self determination, hardiness, and self efficacy fit within the metatheory.",
    "coreIdea": "Resilience is a process of disruption and reintegration moving toward growth, so a hard period is a stage to move through, not a verdict on a person.",
    "related": [],
-   "url": "https://seneca.primo.exlibrisgroup.com/discovery/search?vid=01SENC_INST:01SENC_NDE&tab=Everything&offset=0&lang=en&query=any%2Ccontains%2CApplications%20of%20the%20Metatheory%20of%20Resilience%20and%20Resiliency%20Richardson",
-   "fulltext": false,
-   "senecaLib": true
+   "url": "https://www.erudit.org/fr/revues/devhumain/2011-v19-n1-devhumain06851/1087261ar.pdf",
+   "fulltext": true
   },
   {
    "id": "ungar2013",
