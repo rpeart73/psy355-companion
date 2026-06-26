@@ -138,6 +138,7 @@ window.PSY355 = {
   },
   {
    "id": "yeager-dweck2020",
+   "video": { "yt": "_X0mgOOSpLU", "title": "The power of believing that you can improve | Carol Dweck | TED", "channel": "TED", "scholar": "Carol S. Dweck" },
    "eye": "western",
    "type": "Article",
    "access": "library",
@@ -163,6 +164,7 @@ window.PSY355 = {
   },
   {
    "id": "ungar2011",
+   "video": { "yt": "15D1QuNLH0c", "title": "Dr. Michael Ungar: What is Resilience", "channel": "Keynote Speakers Canada", "scholar": "Michael Ungar" },
    "eye": "western",
    "type": "Article",
    "access": "library",
@@ -214,6 +216,7 @@ window.PSY355 = {
   },
   {
    "id": "yeager2019",
+   "video": { "yt": "B9FMue4-tg8", "title": "Can a \"growth mindset\" help students achieve goals? with David Yeager, PhD | Speaking of Psychology", "channel": "American Psychological Association", "scholar": "David S. Yeager" },
    "eye": "western",
    "type": "Article",
    "access": "library",
@@ -426,6 +429,7 @@ window.PSY355 = {
   },
   {
    "id": "neff2003",
+   "video": { "yt": "IvtZBUSplr4", "title": "The Space Between Self-Esteem and Self Compassion: Kristin Neff at TEDxCentennialParkWomen", "channel": "TEDx Talks", "scholar": "Kristin Neff" },
    "eye": "western",
    "type": "Article",
    "access": "library",
