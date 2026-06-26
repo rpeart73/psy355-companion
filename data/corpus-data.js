@@ -138,6 +138,7 @@ window.PSY355 = {
   },
   {
    "id": "yeager-dweck2020",
+   "assigned": "lead-author synthesis sections",
    "video": { "yt": "_X0mgOOSpLU", "title": "The power of believing that you can improve | Carol Dweck | TED", "channel": "TED", "scholar": "Carol S. Dweck" },
    "eye": "western",
    "type": "Article",
@@ -545,7 +546,7 @@ window.PSY355 = {
   },
   {
    "id": "wrench2020",
-   "assigned": "Chapter 9: Conflict in Relationships",
+   "assigned": "Interpersonal Communication, Ch9: Conflict in Relationships",
    "eye": "western",
    "type": "Book",
    "access": "openaccess",
