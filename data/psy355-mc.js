@@ -8,7 +8,8 @@ window.PSY355_MC = {
     "Between resilience and a person's fixed inherited temperament"
    ],
    "answer": 0,
-   "why": "The article reviews modern resilience research alongside ancient practical philosophy such as Stoic, Cynic, and Epicurean thought."
+   "why": "The article reviews modern resilience research alongside ancient practical philosophy such as Stoic, Cynic, and Epicurean thought.",
+   "skill": "argument"
   },
   {
    "q": "What does Owen call the ability to flourish across all circumstances?",
@@ -18,7 +19,8 @@ window.PSY355_MC = {
     "Learned helplessness"
    ],
    "answer": 1,
-   "why": "Owen terms the goal of these ancient philosophers eudaimonic resilience, the ability to flourish in all circumstances."
+   "why": "Owen terms the goal of these ancient philosophers eudaimonic resilience, the ability to flourish in all circumstances.",
+   "skill": "concepts"
   },
   {
    "q": "How does the article describe the current state of resilience research?",
@@ -28,7 +30,8 @@ window.PSY355_MC = {
     "It has expanded a lot but still lacks one agreed definition"
    ],
    "answer": 2,
-   "why": "Owen notes the study of resilience has expanded significantly yet no universally accepted definition exists."
+   "why": "Owen notes the study of resilience has expanded significantly yet no universally accepted definition exists.",
+   "skill": "context"
   },
   {
    "q": "Which traditions of ancient thought does Owen single out as roots of resilience psychology?",
@@ -38,7 +41,8 @@ window.PSY355_MC = {
     "Romantic, modernist, and postmodern movements"
    ],
    "answer": 0,
-   "why": "The abstract names Stoic, Cynic, and Epicurean thought as the ancient practical philosophy he reviews."
+   "why": "The abstract names Stoic, Cynic, and Epicurean thought as the ancient practical philosophy he reviews.",
+   "skill": "concepts"
   },
   {
    "q": "What did these ancient practitioners train themselves to do, according to Owen?",
@@ -48,7 +52,8 @@ window.PSY355_MC = {
     "Depend entirely on others for their happiness"
    ],
    "answer": 1,
-   "why": "The abstract says these systems trained practitioners to insulate themselves from life's ups and downs and to become self sufficient in their happiness."
+   "why": "The abstract says these systems trained practitioners to insulate themselves from life's ups and downs and to become self sufficient in their happiness.",
+   "skill": "concepts"
   }
  ],
  "ungar2011": [
@@ -60,7 +65,8 @@ window.PSY355_MC = {
     "On removing all risk factors before growth is possible"
    ],
    "answer": 0,
-   "why": "He argues that because resilience occurs even when risk is plentiful, greater emphasis is needed on the social and physical ecologies around a person."
+   "why": "He argues that because resilience occurs even when risk is plentiful, greater emphasis is needed on the social and physical ecologies around a person.",
+   "skill": "argument"
   },
   {
    "q": "Which set of four principles does Ungar propose for an ecological reading of resilience?",
@@ -70,7 +76,8 @@ window.PSY355_MC = {
     "Reward, punishment, repetition, and recall"
    ],
    "answer": 1,
-   "why": "The article names decentrality, complexity, atypicality, and cultural relativity as the four principles of an ecological interpretation."
+   "why": "The article names decentrality, complexity, atypicality, and cultural relativity as the four principles of an ecological interpretation.",
+   "skill": "concepts"
   },
   {
    "q": "What does Ungar's framework aim to inform?",
@@ -80,7 +87,8 @@ window.PSY355_MC = {
     "The design of interventions for people in environments that inhibit resilience"
    ],
    "answer": 2,
-   "why": "He intends the framework to guide interventions that promote well being among populations in environments that inhibit resilience promoting processes."
+   "why": "He intends the framework to guide interventions that promote well being among populations in environments that inhibit resilience promoting processes.",
+   "skill": "significance"
   },
   {
    "q": "What does Ungar point to as evidence that environment deserves more weight than individual traits?",
@@ -90,7 +98,8 @@ window.PSY355_MC = {
     "That only people without risk factors recover"
    ],
    "answer": 0,
-   "why": "The abstract notes resilience occurs even when risk factors are plentiful, which is why more weight should fall on social and physical ecologies."
+   "why": "The abstract notes resilience occurs even when risk factors are plentiful, which is why more weight should fall on social and physical ecologies.",
+   "skill": "argument"
   },
   {
    "q": "How does Ungar choose to define resilience in this article?",
@@ -100,7 +109,8 @@ window.PSY355_MC = {
     "In terms of a single biological marker"
    ],
    "answer": 1,
-   "why": "The abstract says he uses the four principles to define resilience in terms of its environmental antecedents."
+   "why": "The abstract says he uses the four principles to define resilience in terms of its environmental antecedents.",
+   "skill": "concepts"
   }
  ],
  "panadero2017": [
@@ -112,7 +122,8 @@ window.PSY355_MC = {
     "Two"
    ],
    "answer": 0,
-   "why": "The review analyzes and compares six models of self regulated learning."
+   "why": "The review analyzes and compares six models of self regulated learning.",
+   "skill": "concepts"
   },
   {
    "q": "What does the article say self regulated learning covers?",
@@ -122,7 +133,8 @@ window.PSY355_MC = {
     "Only the time a student spends studying"
    ],
    "answer": 1,
-   "why": "Panadero describes self regulated learning as an umbrella over the cognitive, metacognitive, behavioral, motivational, and emotional or affective aspects of learning."
+   "why": "Panadero describes self regulated learning as an umbrella over the cognitive, metacognitive, behavioral, motivational, and emotional or affective aspects of learning.",
+   "skill": "concepts"
   },
   {
    "q": "What is one of the review's two main conclusions?",
@@ -132,7 +144,8 @@ window.PSY355_MC = {
     "The effects of the models differ by students' developmental stage or educational level"
    ],
    "answer": 2,
-   "why": "He concludes there are differential effects of the models depending on students' developmental stages or educational levels."
+   "why": "He concludes there are differential effects of the models depending on students' developmental stages or educational levels.",
+   "skill": "argument"
   },
   {
    "q": "Which model authors are among the six that Panadero reviews?",
@@ -142,7 +155,8 @@ window.PSY355_MC = {
     "Freud, Jung, and Adler"
    ],
    "answer": 0,
-   "why": "The abstract lists Zimmerman, Boekaerts, Winne and Hadwin, Pintrich, Efklides, and Hadwin, Jarvela and Miller as the six model authors."
+   "why": "The abstract lists Zimmerman, Boekaerts, Winne and Hadwin, Pintrich, Efklides, and Hadwin, Jarvela and Miller as the six model authors.",
+   "skill": "concepts"
   },
   {
    "q": "What does Panadero conclude the six models form when taken together?",
@@ -152,7 +166,8 @@ window.PSY355_MC = {
     "Six competing frameworks that cannot be reconciled"
    ],
    "answer": 1,
-   "why": "He concludes the models form one coherent framework students can be taught from, while noting their effects differ by level."
+   "why": "He concludes the models form one coherent framework students can be taught from, while noting their effects differ by level.",
+   "skill": "argument"
   }
  ],
  "yeager2019": [
@@ -164,7 +179,8 @@ window.PSY355_MC = {
     "Teachers rather than students"
    ],
    "answer": 0,
-   "why": "The intervention improved grades among lower achieving students and increased enrolment in advanced mathematics."
+   "why": "The intervention improved grades among lower achieving students and increased enrolment in advanced mathematics.",
+   "skill": "concepts"
   },
   {
    "q": "What did the study find shaped whether the intervention changed grades?",
@@ -174,7 +190,8 @@ window.PSY355_MC = {
     "The brand of computer used to deliver it"
    ],
    "answer": 1,
-   "why": "The intervention changed grades when peer norms in the school aligned with its messages, a key contextual finding."
+   "why": "The intervention changed grades when peer norms in the school aligned with its messages, a key contextual finding.",
+   "skill": "context"
   },
   {
    "q": "About how long was the intervention?",
@@ -184,7 +201,8 @@ window.PSY355_MC = {
     "Less than one hour, delivered online"
    ],
    "answer": 2,
-   "why": "The article describes a short, less than one hour, online growth mindset intervention."
+   "why": "The article describes a short, less than one hour, online growth mindset intervention.",
+   "skill": "concepts"
   },
   {
    "q": "How is the confidence in this study's results supported?",
@@ -194,7 +212,8 @@ window.PSY355_MC = {
     "By a single researcher analysing the data informally"
    ],
    "answer": 0,
-   "why": "The abstract attributes confidence in the results to independent data processing, preregistered analyses, and a blinded Bayesian analysis."
+   "why": "The abstract attributes confidence in the results to independent data processing, preregistered analyses, and a blinded Bayesian analysis.",
+   "skill": "concepts"
   },
   {
    "q": "What population did the study draw on?",
@@ -204,7 +223,8 @@ window.PSY355_MC = {
     "A small group of university professors"
    ],
    "answer": 1,
-   "why": "The abstract describes a nationally representative sample of secondary students in the United States."
+   "why": "The abstract describes a nationally representative sample of secondary students in the United States.",
+   "skill": "context"
   }
  ],
  "cassidy2015": [
@@ -216,7 +236,8 @@ window.PSY355_MC = {
     "The number of hours spent in class"
    ],
    "answer": 0,
-   "why": "Cassidy defines self efficacy as relating to an individual's perception of their capabilities."
+   "why": "Cassidy defines self efficacy as relating to an individual's perception of their capabilities.",
+   "skill": "concepts"
   },
   {
    "q": "What relationship did the study find between self efficacy and academic resilience?",
@@ -226,7 +247,8 @@ window.PSY355_MC = {
     "Higher self efficacy lowered resilience"
    ],
    "answer": 1,
-   "why": "Academic self efficacy was correlated with, and a significant predictor of, academic resilience."
+   "why": "Academic self efficacy was correlated with, and a significant predictor of, academic resilience.",
+   "skill": "argument"
   },
   {
    "q": "When did students show greater academic resilience?",
@@ -236,7 +258,8 @@ window.PSY355_MC = {
     "When responding to vicarious adversity rather than personal adversity"
    ],
    "answer": 2,
-   "why": "Students exhibited greater academic resilience when responding to vicarious adversity compared with personal adversity."
+   "why": "Students exhibited greater academic resilience when responding to vicarious adversity compared with personal adversity.",
+   "skill": "concepts"
   },
   {
    "q": "How did Cassidy expose the 435 undergraduates to adversity in the study?",
@@ -246,7 +269,8 @@ window.PSY355_MC = {
     "Through a long term observational diary"
    ],
    "answer": 0,
-   "why": "The abstract says students were exposed to a case vignette of either personal or vicarious academic adversity."
+   "why": "The abstract says students were exposed to a case vignette of either personal or vicarious academic adversity.",
+   "skill": "concepts"
   },
   {
    "q": "When was self efficacy measured relative to the adversity exposure?",
@@ -256,7 +280,8 @@ window.PSY355_MC = {
     "Only after the study was complete"
    ],
    "answer": 1,
-   "why": "The abstract states self efficacy was measured before exposure and resilience after."
+   "why": "The abstract states self efficacy was measured before exposure and resilience after.",
+   "skill": "concepts"
   }
  ],
  "yeager-bryan-gross": [
@@ -268,7 +293,8 @@ window.PSY355_MC = {
     "A growth mindset and a belief that stress should always be avoided"
    ],
    "answer": 0,
-   "why": "The intervention synergistically targets growth mindsets and stress can be enhancing mindsets."
+   "why": "The intervention synergistically targets growth mindsets and stress can be enhancing mindsets.",
+   "skill": "concepts"
   },
   {
    "q": "Why does the article say the intervention works?",
@@ -278,7 +304,8 @@ window.PSY355_MC = {
     "Because it removes all sources of stress from students' lives"
    ],
    "answer": 1,
-   "why": "Heterogeneity analyses and a four cell experiment showed the benefits depended on addressing both mindsets synergistically."
+   "why": "Heterogeneity analyses and a four cell experiment showed the benefits depended on addressing both mindsets synergistically.",
+   "skill": "argument"
   },
   {
    "q": "How does the intervention treat stress?",
@@ -288,7 +315,8 @@ window.PSY355_MC = {
     "As a normal feature of adolescence that can fuel performance"
    ],
    "answer": 2,
-   "why": "The article pushes back on stress avoidance, framing the physiological stress response as something that can fuel optimal performance."
+   "why": "The article pushes back on stress avoidance, framing the physiological stress response as something that can fuel optimal performance.",
+   "skill": "concepts"
   },
   {
    "q": "About how long was the synergistic mindsets module that students completed?",
@@ -298,7 +326,8 @@ window.PSY355_MC = {
     "Several days of residential training"
    ],
    "answer": 0,
-   "why": "The abstract describes a short, self administered online module of around 30 minutes."
+   "why": "The abstract describes a short, self administered online module of around 30 minutes.",
+   "skill": "concepts"
   },
   {
    "q": "Which outcomes did the intervention improve in the experiments?",
@@ -308,7 +337,8 @@ window.PSY355_MC = {
     "Faster reading speed and better handwriting"
    ],
    "answer": 1,
-   "why": "The abstract lists better stress cognitions, lower cardiovascular and cortisol reactivity, improved well being, and fewer anxiety symptoms."
+   "why": "The abstract lists better stress cognitions, lower cardiovascular and cortisol reactivity, improved well being, and fewer anxiety symptoms.",
+   "skill": "concepts"
   }
  ],
  "richardson2011": [
@@ -320,7 +350,8 @@ window.PSY355_MC = {
     "As a fixed trait a person either has or lacks"
    ],
    "answer": 0,
-   "why": "The metatheory frames resilience as a process: a personal journey through disruption and reintegration."
+   "why": "The metatheory frames resilience as a process: a personal journey through disruption and reintegration.",
+   "skill": "argument"
   },
   {
    "q": "What does Richardson call the key stage in the model?",
@@ -330,7 +361,8 @@ window.PSY355_MC = {
     "The peak of mastery"
    ],
    "answer": 1,
-   "why": "He identifies the trough of disruption, the chaos of leaving homeostasis, as the key recurring stage."
+   "why": "He identifies the trough of disruption, the chaos of leaving homeostasis, as the key recurring stage.",
+   "skill": "concepts"
   },
   {
    "q": "What does the metatheory do with theories like self determination, hardiness, and self efficacy?",
@@ -340,7 +372,8 @@ window.PSY355_MC = {
     "Houses them within the resilience and resiliency paradigms"
    ],
    "answer": 2,
-   "why": "Richardson says theories such as Self Determination Theory, Hardiness, and self efficacy can all find homes within the metatheory."
+   "why": "Richardson says theories such as Self Determination Theory, Hardiness, and self efficacy can all find homes within the metatheory.",
+   "skill": "concepts"
   },
   {
    "q": "What does Richardson say happens within the trough of disruption?",
@@ -350,7 +383,8 @@ window.PSY355_MC = {
     "A person permanently loses the ability to recover"
    ],
    "answer": 0,
-   "why": "The abstract says the trough of disruption is where helping professionals can guide a person to discover an innate resilient drive."
+   "why": "The abstract says the trough of disruption is where helping professionals can guide a person to discover an innate resilient drive.",
+   "skill": "concepts"
   },
   {
    "q": "How many waves of resiliency inquiry does Richardson describe?",
@@ -360,7 +394,8 @@ window.PSY355_MC = {
     "One"
    ],
    "answer": 1,
-   "why": "The abstract states he describes the three waves of resiliency inquiry."
+   "why": "The abstract states he describes the three waves of resiliency inquiry.",
+   "skill": "concepts"
   }
  ],
  "ungar2013": [
@@ -372,7 +407,8 @@ window.PSY355_MC = {
     "Nature trumps nurture"
    ],
    "answer": 0,
-   "why": "His first principle holds that resilience is more a quality of the environment than of the individual, summarized as nurture trumps nature."
+   "why": "His first principle holds that resilience is more a quality of the environment than of the individual, summarized as nurture trumps nature.",
+   "skill": "concepts"
   },
   {
    "q": "What does Ungar say resilience depends on?",
@@ -382,7 +418,8 @@ window.PSY355_MC = {
     "A person ignoring their surroundings entirely"
    ],
    "answer": 1,
-   "why": "He defines resilience as needing environments that facilitate individuals' navigations and negotiations for the resources to cope with adversity."
+   "why": "He defines resilience as needing environments that facilitate individuals' navigations and negotiations for the resources to cope with adversity.",
+   "skill": "argument"
   },
   {
    "q": "According to the article, how can resilience manifest depending on the environment?",
@@ -392,7 +429,8 @@ window.PSY355_MC = {
     "As either prosocial behaviour or pathological adaptation"
    ],
    "answer": 2,
-   "why": "Ungar notes resilience can manifest as either prosocial behaviours or pathological adaptation depending on the quality of the environment."
+   "why": "Ungar notes resilience can manifest as either prosocial behaviours or pathological adaptation depending on the quality of the environment.",
+   "skill": "concepts"
   },
   {
    "q": "Which three principles does Ungar use to organize the relationship between resilience and social ecology?",
@@ -402,7 +440,8 @@ window.PSY355_MC = {
     "Speed, accuracy, and effort"
    ],
    "answer": 0,
-   "why": "The abstract names nurture trumps nature, differential impact, and cultural variation as the three principles."
+   "why": "The abstract names nurture trumps nature, differential impact, and cultural variation as the three principles.",
+   "skill": "concepts"
   },
   {
    "q": "What does the principle of differential impact say about resilience across populations?",
@@ -412,7 +451,8 @@ window.PSY355_MC = {
     "It cannot be observed in more than one population"
    ],
    "answer": 1,
-   "why": "The abstract describes differential impact as resilience looking both similar and different within and between populations."
+   "why": "The abstract describes differential impact as resilience looking both similar and different within and between populations.",
+   "skill": "concepts"
   }
  ],
  "lopez2021": [
@@ -424,7 +464,8 @@ window.PSY355_MC = {
     "It is the single best and complete measure"
    ],
    "answer": 0,
-   "why": "The article states current research does not support the practice of using ACEs as the main lens for understanding early childhood experiences."
+   "why": "The article states current research does not support the practice of using ACEs as the main lens for understanding early childhood experiences.",
+   "skill": "argument"
   },
   {
    "q": "What biomarker do the authors propose to record a child's exposure to adversity?",
@@ -434,7 +475,8 @@ window.PSY355_MC = {
     "Resting heart rate alone"
    ],
    "answer": 1,
-   "why": "They identify cortisol as a stress biomarker and posit that hair cortisol concentrations represent a summative, chronological record of exposure."
+   "why": "They identify cortisol as a stress biomarker and posit that hair cortisol concentrations represent a summative, chronological record of exposure.",
+   "skill": "concepts"
   },
   {
    "q": "What broader assessment do the authors call for?",
@@ -444,7 +486,8 @@ window.PSY355_MC = {
     "Comprehensive assessment of the child's whole social ecology, including positive experiences and protective factors"
    ],
    "answer": 2,
-   "why": "The review argues for detailed assessment of a child's social ecology, including positive experiences, relationships, and resilience promoting factors."
+   "why": "The review argues for detailed assessment of a child's social ecology, including positive experiences, relationships, and resilience promoting factors.",
+   "skill": "significance"
   },
   {
    "q": "What kind of measures do the authors propose adding to the study of early adversity?",
@@ -454,7 +497,8 @@ window.PSY355_MC = {
     "Standardized academic test scores alone"
    ],
    "answer": 0,
-   "why": "The abstract says the authors propose adding physiological measures and identify hair cortisol concentrations as a summative record of exposure."
+   "why": "The abstract says the authors propose adding physiological measures and identify hair cortisol concentrations as a summative record of exposure.",
+   "skill": "concepts"
   },
   {
    "q": "What kind of research do the authors ultimately call for?",
@@ -464,7 +508,8 @@ window.PSY355_MC = {
     "A single one time snapshot of each child"
    ],
    "answer": 1,
-   "why": "The abstract says they call for social ecological research into how adverse conditions, protective factors, genetics, environment, and social policy interact across a child's development."
+   "why": "The abstract says they call for social ecological research into how adverse conditions, protective factors, genetics, environment, and social policy interact across a child's development.",
+   "skill": "significance"
   }
  ],
  "antony2023": [
@@ -476,7 +521,8 @@ window.PSY355_MC = {
     "Maslow's hierarchy of needs"
    ],
    "answer": 0,
-   "why": "The paper frames childhood resilience through Bronfenbrenner's ecological systems theory."
+   "why": "The paper frames childhood resilience through Bronfenbrenner's ecological systems theory.",
+   "skill": "concepts"
   },
   {
    "q": "What is the paper's central argument about resilience?",
@@ -486,7 +532,8 @@ window.PSY355_MC = {
     "Resilience depends only on a child's individual willpower"
    ],
    "answer": 1,
-   "why": "Antony argues that resilience can be taught during childhood, from interactions with parents to interactions in school."
+   "why": "Antony argues that resilience can be taught during childhood, from interactions with parents to interactions in school.",
+   "skill": "argument"
   },
   {
    "q": "How does Bronfenbrenner's theory describe a child's development?",
@@ -496,7 +543,8 @@ window.PSY355_MC = {
     "As bi directional, reciprocal relationships between the child and surrounding environments"
    ],
    "answer": 2,
-   "why": "The theory conceptualizes development as bi directional and reciprocal relationships between a developing individual and those in surrounding environments."
+   "why": "The theory conceptualizes development as bi directional and reciprocal relationships between a developing individual and those in surrounding environments.",
+   "skill": "concepts"
   },
   {
    "q": "In which direction does Antony's paper move when discussing resilience?",
@@ -506,7 +554,8 @@ window.PSY355_MC = {
     "It stays only on national policy and never reaches the child"
    ],
    "answer": 0,
-   "why": "The abstract describes the paper moving outward from the child's own traits to parents and attachment, then teachers and school, then broader influences such as culture and media."
+   "why": "The abstract describes the paper moving outward from the child's own traits to parents and attachment, then teachers and school, then broader influences such as culture and media.",
+   "skill": "concepts"
   },
   {
    "q": "What practical approaches does the paper close with implications for?",
@@ -516,7 +565,8 @@ window.PSY355_MC = {
     "Pharmaceutical treatment plans"
    ],
    "answer": 1,
-   "why": "The abstract says it closes with implications for play based approaches and for educational psychologists."
+   "why": "The abstract says it closes with implications for play based approaches and for educational psychologists.",
+   "skill": "significance"
   }
  ],
  "weight2024": [
@@ -528,7 +578,8 @@ window.PSY355_MC = {
     "Lack of any competition"
    ],
    "answer": 0,
-   "why": "The most prevalent themes of adversity were injury, time demands, and coach athlete tension."
+   "why": "The most prevalent themes of adversity were injury, time demands, and coach athlete tension.",
+   "skill": "concepts"
   },
   {
    "q": "What did athletes say adversity did for them?",
@@ -538,7 +589,8 @@ window.PSY355_MC = {
     "It had no effect on their development"
    ],
    "answer": 1,
-   "why": "Athletes noted that adversity promoted their resiliency, facilitated grit and perseverance, and enhanced teamwork and time management."
+   "why": "Athletes noted that adversity promoted their resiliency, facilitated grit and perseverance, and enhanced teamwork and time management.",
+   "skill": "argument"
   },
   {
    "q": "Whose resiliency theory guided the study?",
@@ -548,7 +600,8 @@ window.PSY355_MC = {
     "Richardson's"
    ],
    "answer": 2,
-   "why": "The study was guided by Richardson's Resiliency Theory."
+   "why": "The study was guided by Richardson's Resiliency Theory.",
+   "skill": "context"
   },
   {
    "q": "What kind of study design did Weight and colleagues use with the former athletes?",
@@ -558,7 +611,8 @@ window.PSY355_MC = {
     "A national multiple choice survey only"
    ],
    "answer": 0,
-   "why": "The abstract describes a qualitative study that interviewed 215 former United States college athletes."
+   "why": "The abstract describes a qualitative study that interviewed 215 former United States college athletes.",
+   "skill": "context"
   },
   {
    "q": "Beyond resilience and grit, what else did athletes report gaining from adversity?",
@@ -568,7 +622,8 @@ window.PSY355_MC = {
     "Reduced interest in their sport"
    ],
    "answer": 1,
-   "why": "The abstract says athletes reported that adversity improved teamwork and time management and led to other forms of personal growth."
+   "why": "The abstract says athletes reported that adversity improved teamwork and time management and led to other forms of personal growth.",
+   "skill": "concepts"
   }
  ],
  "neff2003": [
@@ -580,7 +635,8 @@ window.PSY355_MC = {
     "Discipline, denial, and detachment"
    ],
    "answer": 0,
-   "why": "Neff defines self compassion as self kindness, common humanity, and mindfulness."
+   "why": "Neff defines self compassion as self kindness, common humanity, and mindfulness.",
+   "skill": "concepts"
   },
   {
    "q": "What does the component of common humanity involve?",
@@ -590,7 +646,8 @@ window.PSY355_MC = {
     "Comparing oneself favourably to others"
    ],
    "answer": 1,
-   "why": "Common humanity means perceiving one's experiences as part of the larger human experience rather than as separating and isolating."
+   "why": "Common humanity means perceiving one's experiences as part of the larger human experience rather than as separating and isolating.",
+   "skill": "concepts"
   },
   {
    "q": "How does Neff position self compassion in relation to self esteem?",
@@ -600,7 +657,8 @@ window.PSY355_MC = {
     "As an alternative to self esteem, which rests on evaluation and comparison"
    ],
    "answer": 2,
-   "why": "Neff offers self compassion as an alternative to self esteem, which is constituted by judgments and comparisons of self worth."
+   "why": "Neff offers self compassion as an alternative to self esteem, which is constituted by judgments and comparisons of self worth.",
+   "skill": "argument"
   },
   {
    "q": "What does the mindfulness component of self compassion involve in Neff's account?",
@@ -610,7 +668,8 @@ window.PSY355_MC = {
     "Treating every painful thought as the whole truth"
    ],
    "answer": 0,
-   "why": "The abstract defines mindfulness as holding painful thoughts in balanced awareness rather than over identifying with them."
+   "why": "The abstract defines mindfulness as holding painful thoughts in balanced awareness rather than over identifying with them.",
+   "skill": "concepts"
   },
   {
    "q": "What costs does Neff say self compassion protects against?",
@@ -620,7 +679,8 @@ window.PSY355_MC = {
     "The costs of working too hard at a task"
    ],
    "answer": 1,
-   "why": "The abstract says self compassion protects against the costs of self judgment, isolation, and rumination."
+   "why": "The abstract says self compassion protects against the costs of self judgment, isolation, and rumination.",
+   "skill": "significance"
   }
  ],
  "stephenson2018": [
@@ -632,7 +692,8 @@ window.PSY355_MC = {
     "Applied behaviour analysis"
    ],
    "answer": 0,
-   "why": "The study draws on assumptions associated with Rational Emotive Behavior Therapy (REBT)."
+   "why": "The study draws on assumptions associated with Rational Emotive Behavior Therapy (REBT).",
+   "skill": "context"
   },
   {
    "q": "What did the study predict and find about self compassion and irrational beliefs?",
@@ -642,7 +703,8 @@ window.PSY355_MC = {
     "Self compassion increased irrational beliefs"
    ],
    "answer": 1,
-   "why": "As expected, self compassion correlated negatively with irrationality and was incompatible with irrational beliefs, unlike self esteem."
+   "why": "As expected, self compassion correlated negatively with irrationality and was incompatible with irrational beliefs, unlike self esteem.",
+   "skill": "argument"
   },
   {
    "q": "How do the authors describe self compassion in REBT terms?",
@@ -652,7 +714,8 @@ window.PSY355_MC = {
     "As part of an effective personal philosophy"
    ],
    "answer": 2,
-   "why": "The data confirmed self compassion as part of what REBT would describe as an effective personal philosophy."
+   "why": "The data confirmed self compassion as part of what REBT would describe as an effective personal philosophy.",
+   "skill": "concepts"
   },
   {
    "q": "How many university students took part in this study?",
@@ -662,7 +725,8 @@ window.PSY355_MC = {
     "1,200"
    ],
    "answer": 0,
-   "why": "The abstract states the study involved 184 university students."
+   "why": "The abstract states the study involved 184 university students.",
+   "skill": "context"
   },
   {
    "q": "What did the study find partially mediated self compassion's relationship with anxiety?",
@@ -672,7 +736,8 @@ window.PSY355_MC = {
     "Years of schooling"
    ],
    "answer": 1,
-   "why": "The abstract says low frustration tolerance partially mediated self compassion's relationship with anxiety."
+   "why": "The abstract says low frustration tolerance partially mediated self compassion's relationship with anxiety.",
+   "skill": "concepts"
   }
  ],
  "nas2025": [
@@ -684,7 +749,8 @@ window.PSY355_MC = {
     "Age and gender"
    ],
    "answer": 0,
-   "why": "The study highlights the role of self compassion and psychological flexibility as parallel mediators."
+   "why": "The study highlights the role of self compassion and psychological flexibility as parallel mediators.",
+   "skill": "concepts"
   },
   {
    "q": "What chain did the structural equation modeling indicate?",
@@ -694,7 +760,8 @@ window.PSY355_MC = {
     "Life satisfaction has no link to perseverance"
    ],
    "answer": 1,
-   "why": "Modeling indicated perseverance enhances self compassion, which in turn promotes psychological flexibility, ultimately increasing life satisfaction."
+   "why": "Modeling indicated perseverance enhances self compassion, which in turn promotes psychological flexibility, ultimately increasing life satisfaction.",
+   "skill": "argument"
   },
   {
    "q": "Who were the participants?",
@@ -704,7 +771,8 @@ window.PSY355_MC = {
     "Academics from universities in Turkiye"
    ],
    "answer": 2,
-   "why": "The sample was 305 academics from various universities in Turkiye."
+   "why": "The sample was 305 academics from various universities in Turkiye.",
+   "skill": "context"
   },
   {
    "q": "What study design did Nas and colleagues use with the academics?",
@@ -714,7 +782,8 @@ window.PSY355_MC = {
     "A single case study of one person"
    ],
    "answer": 0,
-   "why": "The abstract describes a cross sectional study of 305 academics analysed with structural equation modeling."
+   "why": "The abstract describes a cross sectional study of 305 academics analysed with structural equation modeling.",
+   "skill": "context"
   },
   {
    "q": "How do the authors frame the practical use of their findings?",
@@ -724,7 +793,8 @@ window.PSY355_MC = {
     "As proof that perseverance harms well being"
    ],
    "answer": 1,
-   "why": "The abstract says the authors frame the chain as guidance for interventions to reduce stress and foster resilience among higher education professionals."
+   "why": "The abstract says the authors frame the chain as guidance for interventions to reduce stress and foster resilience among higher education professionals.",
+   "skill": "significance"
   }
  ],
  "jadmiko2024": [
@@ -736,7 +806,8 @@ window.PSY355_MC = {
     "Psychoanalysis"
    ],
    "answer": 0,
-   "why": "The study applies constructivism theory, which views knowledge as something built in a person's mind from their interpretation of experience."
+   "why": "The study applies constructivism theory, which views knowledge as something built in a person's mind from their interpretation of experience.",
+   "skill": "concepts"
   },
   {
    "q": "What did the results show about reflective journaling and resilience?",
@@ -746,7 +817,8 @@ window.PSY355_MC = {
     "Resilience fell after the workshops"
    ],
    "answer": 1,
-   "why": "Results revealed a significant increase in both reflective journal writing and resilience and a significant strong relationship between them."
+   "why": "Results revealed a significant increase in both reflective journal writing and resilience and a significant strong relationship between them.",
+   "skill": "argument"
   },
   {
    "q": "Why did the study target reflective practice for these students?",
@@ -756,7 +828,8 @@ window.PSY355_MC = {
     "Because most nursing students in Indonesia experience moderate stress in clinical settings"
    ],
    "answer": 2,
-   "why": "The study notes that about 79.8 percent of nursing students in Indonesia experience moderate stress in the clinical environment."
+   "why": "The study notes that about 79.8 percent of nursing students in Indonesia experience moderate stress in the clinical environment.",
+   "skill": "context"
   },
   {
    "q": "What study design did Jadmiko and colleagues use?",
@@ -766,7 +839,8 @@ window.PSY355_MC = {
     "A purely theoretical paper with no participants"
    ],
    "answer": 0,
-   "why": "The abstract describes a quasi experimental one group pre test and post test study of 57 students."
+   "why": "The abstract describes a quasi experimental one group pre test and post test study of 57 students.",
+   "skill": "context"
   },
   {
    "q": "What did the constructivist approach ask students to draw on as material for reflection?",
@@ -776,7 +850,8 @@ window.PSY355_MC = {
     "A fixed set of textbook answers"
    ],
    "answer": 1,
-   "why": "The abstract says constructivism had students draw on their prior clinical experiences as material for self reflection."
+   "why": "The abstract says constructivism had students draw on their prior clinical experiences as material for self reflection.",
+   "skill": "concepts"
   }
  ],
  "kamarulzaman2026": [
@@ -788,7 +863,8 @@ window.PSY355_MC = {
     "Three"
    ],
    "answer": 0,
-   "why": "Thematic analysis revealed seven critical thinking dispositions, including analyticity, open mindedness, and truth seeking."
+   "why": "Thematic analysis revealed seven critical thinking dispositions, including analyticity, open mindedness, and truth seeking.",
+   "skill": "concepts"
   },
   {
    "q": "What happened to students' reflections across the three journaling cycles?",
@@ -798,7 +874,8 @@ window.PSY355_MC = {
     "They became shorter and less thoughtful"
    ],
    "answer": 1,
-   "why": "Students demonstrated increasingly meaningful and analytical reflections across the three cycles, indicating deeper engagement."
+   "why": "Students demonstrated increasingly meaningful and analytical reflections across the three cycles, indicating deeper engagement.",
+   "skill": "argument"
   },
   {
    "q": "What method did the study use to examine the journals?",
@@ -808,7 +885,8 @@ window.PSY355_MC = {
     "Qualitative thematic analysis"
    ],
    "answer": 2,
-   "why": "The study used a qualitative design and thematic analysis of 135 reflective journals."
+   "why": "The study used a qualitative design and thematic analysis of 135 reflective journals.",
+   "skill": "context"
   },
   {
    "q": "In what course did the 45 undergraduates complete their reflective journals?",
@@ -818,7 +896,8 @@ window.PSY355_MC = {
     "A creative writing workshop"
    ],
    "answer": 0,
-   "why": "The abstract says the students were in an Educational Testing and Assessment course."
+   "why": "The abstract says the students were in an Educational Testing and Assessment course.",
+   "skill": "context"
   },
   {
    "q": "How many reflective journals did the students complete across the semester?",
@@ -828,7 +907,8 @@ window.PSY355_MC = {
     "Exactly one journal each"
    ],
    "answer": 1,
-   "why": "The abstract states the 45 undergraduates completed 135 journals across three intervals in a semester."
+   "why": "The abstract states the 45 undergraduates completed 135 journals across three intervals in a semester.",
+   "skill": "context"
   }
  ]
 };
