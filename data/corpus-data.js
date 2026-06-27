@@ -97,17 +97,17 @@ window.PSY355 = {
   "pending": "Access pending"
  },
  "syntheses": {
-  "owen2023|panadero2017": "Owen frames well being as a way of living grounded in ancient practical philosophy, while Panadero treats learning as a managed cycle of planning, monitoring, and adjusting. Read together, they connect how a person learns to how a person stays well. Both reject the idea that a single intense effort is the answer: Owen points to sustainable ways of living, and Panadero points to a repeatable learning cycle rather than one big push. The difference matters because it tells a student that capacity, in study and in life, is built by manageable, repeated practice that can be adjusted, not by willpower spent all at once.",
-  "owen2023|ungar2011": "Owen connects resilience to a longer tradition of practical philosophy, treating well being as a way of living rather than a single fix. Ungar locates resilience in a person's social ecology, where recovery depends on the supports an environment makes available. Read together, they widen resilience in two directions at once. Owen widens it across a whole life, and Ungar widens it across the relationships and systems around a person. The difference is one of emphasis: Owen looks at how a person lives, and Ungar looks at what the environment provides. Taken together they push back on the same idea, that resilience is individual toughness, by showing it depends on both sustained practice and reachable support.",
-  "owen2023|yeager-dweck2020": "Owen treats well being as a way of living drawn from practical philosophy, and Yeager and Dweck treat growth mindset as a belief about ability that helps only when used carefully. Read together, they share a refusal of the quick fix. Owen warns against over relying on one technique, and Yeager and Dweck warn against turning a careful finding into a slogan. The difference is the level each works at: Owen addresses how a person lives across the whole of a life, while Yeager and Dweck address one belief and its limits. The shared lesson is that both a way of living and a useful belief have to stay honest about their boundaries rather than promising more than they can deliver.",
+  "owen2023|panadero2017": "Owen frames well-being as a way of living grounded in ancient practical philosophy, while Panadero treats learning as a managed cycle of planning, monitoring, and adjusting. Read together, they connect how a person learns to how a person stays well. Both reject the idea that a single intense effort is the answer: Owen points to sustainable ways of living, and Panadero points to a repeatable learning cycle rather than one big push. The difference matters because it tells a student that capacity, in study and in life, is built by manageable, repeated practice that can be adjusted, not by willpower spent all at once.",
+  "owen2023|ungar2011": "Owen connects resilience to a longer tradition of practical philosophy, treating well-being as a way of living rather than a single fix. Ungar locates resilience in a person's social ecology, where recovery depends on the supports an environment makes available. Read together, they widen resilience in two directions at once. Owen widens it across a whole life, and Ungar widens it across the relationships and systems around a person. The difference is one of emphasis: Owen looks at how a person lives, and Ungar looks at what the environment provides. Taken together they push back on the same idea, that resilience is individual toughness, by showing it depends on both sustained practice and reachable support.",
+  "owen2023|yeager-dweck2020": "Owen treats well-being as a way of living drawn from practical philosophy, and Yeager and Dweck treat growth mindset as a belief about ability that helps only when used carefully. Read together, they share a refusal of the quick fix. Owen warns against over relying on one technique, and Yeager and Dweck warn against turning a careful finding into a slogan. The difference is the level each works at: Owen addresses how a person lives across the whole of a life, while Yeager and Dweck address one belief and its limits. The shared lesson is that both a way of living and a useful belief have to stay honest about their boundaries rather than promising more than they can deliver.",
   "panadero2017|ungar2011": "Panadero describes learning as a cycle of planning, monitoring, and adjusting that a student manages. Ungar describes resilience as something that depends on the supports a person's environment makes available. Read together, they place effort and environment side by side. Panadero centres what a learner does, and Ungar centres what surrounds the learner. The difference matters because each corrects a blind spot in the other: a strong learning cycle still needs reachable resources, and a supportive environment still needs the learner to plan and adjust. Together they show that progress in difficult conditions is neither pure willpower nor pure circumstance, but the meeting of managed effort and available support.",
-  "panadero2017|yeager-dweck2020": "Panadero reviews how learners plan, monitor, and adjust their own study, while Yeager and Dweck examine when the belief that ability can grow actually helps. Read together, they connect a belief to the work that makes it real. Yeager and Dweck supply the belief that capacity can develop, and Panadero supplies the cycle through which a student would actually develop it. The difference is that mindset is a way of reading a setback, and self regulated learning is the method that follows. The takeaway is that believing ability can grow matters most when it is paired with a concrete, adjustable strategy, so that effort is pointed at what works rather than spent on belief alone.",
+  "panadero2017|yeager-dweck2020": "Panadero reviews how learners plan, monitor, and adjust their own study, while Yeager and Dweck examine when the belief that ability can grow actually helps. Read together, they connect a belief to the work that makes it real. Yeager and Dweck supply the belief that capacity can develop, and Panadero supplies the cycle through which a student would actually develop it. The difference is that mindset is a way of reading a setback, and self-regulated learning is the method that follows. The takeaway is that believing ability can grow matters most when it is paired with a concrete, adjustable strategy, so that effort is pointed at what works rather than spent on belief alone.",
   "ungar2011|yeager-dweck2020": "Ungar locates resilience in a person's social ecology, where recovery depends on reachable supports, while Yeager and Dweck describe growth mindset as a belief whose effect depends on context. Read together, they make the same correction from two sides. Ungar warns against treating resilience as individual toughness, and Yeager and Dweck warn against treating mindset as a cure that works regardless of circumstance. Both insist that the surrounding environment shapes outcomes. The difference is that Ungar starts from the environment and Yeager and Dweck start from a belief, but they converge on one point: neither resilience nor mindset can be expected to overcome barriers that belong to the situation rather than to the person.",
   "claro2016|yeager2019": "Yeager and colleagues report a large scale experiment on where a growth mindset improves achievement, and Claro and colleagues study mindset alongside achievement in students. Read together, they form the empirical core of the mindset case while also marking its limits. Both move the discussion from slogan to evidence, asking who is actually helped and under what conditions. The difference is one of scope and setting, but they point the same way: mindset effects are real yet conditional, depending on the surrounding environment and the support available. The takeaway is that careful evidence keeps a useful idea honest, showing where it applies without promising that belief alone overcomes every barrier.",
-  "cassidy2015|yeager-bryan-gross": "Cassidy connects academic self efficacy to resilience, showing that task specific confidence shapes how students approach difficulty, while the Yeager and colleagues mindset work concerns the beliefs students carry into hard tasks. Read together, they sit at the same hinge between belief and action. Cassidy treats confidence as something built by doing the next concrete step, and the mindset research treats belief about ability as something that shapes effort. The difference is that self efficacy is tied to a specific task while mindset is a more general view of ability. The shared lesson is that what a student believes they can do changes how they act under difficulty, and that this belief is most useful when it is grounded in real, reachable action.",
+  "cassidy2015|yeager-bryan-gross": "Cassidy connects academic self-efficacy to resilience, showing that task specific confidence shapes how students approach difficulty, while the Yeager and colleagues mindset work concerns the beliefs students carry into hard tasks. Read together, they sit at the same hinge between belief and action. Cassidy treats confidence as something built by doing the next concrete step, and the mindset research treats belief about ability as something that shapes effort. The difference is that self-efficacy is tied to a specific task while mindset is a more general view of ability. The shared lesson is that what a student believes they can do changes how they act under difficulty, and that this belief is most useful when it is grounded in real, reachable action.",
   "lopez2021|ungar2013": "Ungar shows that what counts as resilience and useful support varies across cultures and situations, while Lopez and colleagues describe early adversity through a social ecology lens. Read together, they deepen the contextual view of resilience. Both reject a one size fits all model: Ungar from the angle of cultural meaning, Lopez and colleagues from the angle of the surrounding environment that shapes whether a person can recover. The difference is emphasis, culture in one and ecological conditions in the other, but they converge on the same demand. Support has to fit the person's actual world, because a strategy that ignores context can miss the real barrier or even cause harm.",
   "antony2023|lopez2021": "Lopez and colleagues describe early adversity through a social ecology lens, locating its weight in environments and circumstances rather than in individual weakness. Read alongside the week's contextual material on childhood and culture, both treat difficulty as something shaped by the systems around a person. The shared move is to widen the frame from the individual to the family, school, and community that surround them. The difference is in focus, but the lesson is consistent: understanding adversity and recovery means looking at conditions and supports, not only at a person's effort, which keeps the response realistic and avoids blaming the learner for obstacles they did not create.",
-  "neff2003|stephenson2018": "Neff defines self compassion as a kind and accurate response to difficulty, while Stephenson and colleagues link harsh self criticism to irrational beliefs and lower self compassion. Read together, they describe the same inner terrain from opposite ends. Neff names the healthier response, and Stephenson and colleagues document the cost of its absence. The difference is direction: one builds the case for treating oneself fairly, the other shows what severe self judgment does to learning. The takeaway is that self compassion is not indulgence but a working tool, because the harsh self talk Stephenson and colleagues study tends to constrict rather than motivate, while the accurate, humane response Neff describes frees attention for the next action."
+  "neff2003|stephenson2018": "Neff defines self-compassion as a kind and accurate response to difficulty, while Stephenson and colleagues link harsh self criticism to irrational beliefs and lower self-compassion. Read together, they describe the same inner terrain from opposite ends. Neff names the healthier response, and Stephenson and colleagues document the cost of its absence. The difference is direction: one builds the case for treating oneself fairly, the other shows what severe self judgment does to learning. The takeaway is that self-compassion is not indulgence but a working tool, because the harsh self talk Stephenson and colleagues study tends to constrict rather than motivate, while the accurate, humane response Neff describes frees attention for the next action."
  },
  "records": [
   {
@@ -205,7 +205,7 @@ window.PSY355 = {
    "len": "~40 min read",
    "diff": 3,
    "week": 1,
-   "abstract": "Panadero reviews and compares six major models of self regulated learning, those of Zimmerman, Boekaerts, Winne and Hadwin, Pintrich, Efklides, and Hadwin, Jarvela and Miller, treating self regulated learning as an umbrella that covers the cognitive, metacognitive, behavioral, motivational, and emotional sides of learning. He examines each model's history, structure, empirical support, and measures, then compares them on phases, how they treat cognition, motivation, and emotion, and other features. He concludes that the models form one coherent framework students can be taught from, while warning that their effects differ by students' developmental stage and educational level.",
+   "abstract": "Panadero reviews and compares six major models of self-regulated learning, those of Zimmerman, Boekaerts, Winne and Hadwin, Pintrich, Efklides, and Hadwin, Jarvela and Miller, treating self-regulated learning as an umbrella that covers the cognitive, metacognitive, behavioral, motivational, and emotional sides of learning. He examines each model's history, structure, empirical support, and measures, then compares them on phases, how they treat cognition, motivation, and emotion, and other features. He concludes that the models form one coherent framework students can be taught from, while warning that their effects differ by students' developmental stage and educational level.",
    "coreIdea": "Self regulated learning is a coherent, teachable framework of planning, monitoring, and adjusting, not a single intense effort, and its models apply differently at different levels.",
    "related": [
     "owen2023",
@@ -283,8 +283,8 @@ window.PSY355 = {
    "len": "~30 min read",
    "diff": 2,
    "week": 4,
-   "abstract": "Cassidy tests how academic self efficacy, a person's perception of their own capabilities, relates to academic resilience by exposing 435 undergraduates to a case vignette of either personal or vicarious academic adversity. Self efficacy was measured before exposure and resilience after, and self efficacy was both correlated with and a significant predictor of academic resilience. Students also showed greater resilience when responding to vicarious adversity than to personal adversity, which points toward how interventions might be designed.",
-   "coreIdea": "Academic self efficacy, the belief that one can do a specific task, predicts academic resilience and can be built deliberately as a protective factor.",
+   "abstract": "Cassidy tests how academic self-efficacy, a person's perception of their own capabilities, relates to academic resilience by exposing 435 undergraduates to a case vignette of either personal or vicarious academic adversity. Self efficacy was measured before exposure and resilience after, and self-efficacy was both correlated with and a significant predictor of academic resilience. Students also showed greater resilience when responding to vicarious adversity than to personal adversity, which points toward how interventions might be designed.",
+   "coreIdea": "Academic self-efficacy, the belief that one can do a specific task, predicts academic resilience and can be built deliberately as a protective factor.",
    "related": [
     "yeager-bryan-gross"
    ],
@@ -309,7 +309,7 @@ window.PSY355 = {
    "len": "~25 min read",
    "diff": 4,
    "week": 4,
-   "abstract": "Across six randomized controlled experiments with United States secondary and post secondary students, a short, self administered online module, around 30 minutes, improved adolescents' stress responses. The synergistic mindsets intervention targets two beliefs at once: a growth mindset, that intelligence can be developed, and a stress can be enhancing mindset, that the body's stress response can fuel performance. The benefits, including better stress cognitions, lower cardiovascular and cortisol reactivity, improved well being, and fewer anxiety symptoms, depended on addressing both mindsets together rather than either alone.",
+   "abstract": "Across six randomized controlled experiments with United States secondary and post secondary students, a short, self administered online module, around 30 minutes, improved adolescents' stress responses. The synergistic mindsets intervention targets two beliefs at once: a growth mindset, that intelligence can be developed, and a stress can be enhancing mindset, that the body's stress response can fuel performance. The benefits, including better stress cognitions, lower cardiovascular and cortisol reactivity, improved well-being, and fewer anxiety symptoms, depended on addressing both mindsets together rather than either alone.",
    "coreIdea": "Pairing a growth mindset with the belief that stress can be enhancing protects adolescents from stress better than either belief on its own.",
    "related": [
     "cassidy2015"
@@ -334,7 +334,7 @@ window.PSY355 = {
    "len": "~30 min read",
    "diff": 3,
    "week": 5,
-   "abstract": "Richardson explains resilience through his Metatheory of Resilience and Resiliency, presenting it as a process, a personal journey through disruption and reintegration that moves in a series of choices toward optimal health. He centres the trough of disruption, the chaos of leaving homeostasis, as the key stage where helping professionals can guide a person to discover an innate resilient drive. He describes the three waves of resiliency inquiry and how popular theories such as self determination, hardiness, and self efficacy fit within the metatheory.",
+   "abstract": "Richardson explains resilience through his Metatheory of Resilience and Resiliency, presenting it as a process, a personal journey through disruption and reintegration that moves in a series of choices toward optimal health. He centres the trough of disruption, the chaos of leaving homeostasis, as the key stage where helping professionals can guide a person to discover an innate resilient drive. He describes the three waves of resiliency inquiry and how popular theories such as self determination, hardiness, and self-efficacy fit within the metatheory.",
    "coreIdea": "Resilience is a process of disruption and reintegration moving toward growth, so a hard period is a stage to move through, not a verdict on a person.",
    "related": [],
    "url": "https://www.erudit.org/fr/revues/devhumain/2011-v19-n1-devhumain06851/1087261ar.pdf",
@@ -440,7 +440,7 @@ window.PSY355 = {
   },
   {
    "id": "neff2003",
-   "video": { "yt": "IvtZBUSplr4", "title": "The Space Between Self-Esteem and Self Compassion: Kristin Neff at TEDxCentennialParkWomen", "channel": "TEDx Talks", "scholar": "Kristin Neff" },
+   "video": { "yt": "IvtZBUSplr4", "title": "The Space Between Self-Esteem and Self-Compassion: Kristin Neff at TEDxCentennialParkWomen", "channel": "TEDx Talks", "scholar": "Kristin Neff" },
    "eye": "western",
    "type": "Article",
    "access": "library",
@@ -454,7 +454,7 @@ window.PSY355 = {
    "len": "~30 min read",
    "diff": 2,
    "week": 8,
-   "abstract": "Neff defines self compassion through three components: self kindness rather than harsh self criticism in moments of pain or failure, common humanity that sees one's experience as part of the larger human experience rather than isolating, and mindfulness that holds painful thoughts in balanced awareness rather than over identifying with them. She presents it as an emotionally positive self attitude that protects against the costs of self judgment, isolation, and rumination. She offers it as an alternative to self esteem, which rests on evaluation, comparison, and judgments of self worth.",
+   "abstract": "Neff defines self-compassion through three components: self kindness rather than harsh self criticism in moments of pain or failure, common humanity that sees one's experience as part of the larger human experience rather than isolating, and mindfulness that holds painful thoughts in balanced awareness rather than over identifying with them. She presents it as an emotionally positive self attitude that protects against the costs of self judgment, isolation, and rumination. She offers it as an alternative to self esteem, which rests on evaluation, comparison, and judgments of self worth.",
    "coreIdea": "Self compassion is a kind, connected, and clear sighted way of responding to one's own difficulty, and a healthier alternative to self esteem built on judgment.",
    "related": [
     "stephenson2018"
@@ -477,7 +477,7 @@ window.PSY355 = {
    "len": "~25 min read",
    "diff": 3,
    "week": 8,
-   "abstract": "Drawing on Rational Emotive Behavior Therapy (REBT), this study of 184 university students predicted that self compassion, but not self esteem, would be incompatible with irrational beliefs and the emotional disturbances they produce. Self compassion correlated negatively with irrationality, predicted better mental health, and explained the inverse links between self esteem and irrational beliefs, and low frustration tolerance partially mediated its relationship with anxiety. The authors conclude that self compassion functions as part of what REBT would call an effective personal philosophy, while findings for self esteem revealed complexities for the REBT framework.",
+   "abstract": "Drawing on Rational Emotive Behavior Therapy (REBT), this study of 184 university students predicted that self-compassion, but not self esteem, would be incompatible with irrational beliefs and the emotional disturbances they produce. Self compassion correlated negatively with irrationality, predicted better mental health, and explained the inverse links between self esteem and irrational beliefs, and low frustration tolerance partially mediated its relationship with anxiety. The authors conclude that self-compassion functions as part of what REBT would call an effective personal philosophy, while findings for self esteem revealed complexities for the REBT framework.",
    "coreIdea": "Self compassion, more than self esteem, is incompatible with the irrational beliefs that drive emotional distress, making it part of a healthier personal philosophy.",
    "related": [
     "neff2003"
@@ -490,7 +490,7 @@ window.PSY355 = {
    "eye": "western",
    "type": "Article",
    "access": "library",
-   "title": "The role of self compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics",
+   "title": "The role of self-compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics",
    "authors": "Esref Nas, Metin Taytas, and Mehmet Siddik Vangolu",
    "year": 2025,
    "themes": [
@@ -501,8 +501,8 @@ window.PSY355 = {
    "len": "~30 min read",
    "diff": 4,
    "week": 9,
-   "abstract": "This cross sectional study of 305 academics in Turkiye tests how perseverance relates to life satisfaction, with self compassion and psychological flexibility as parallel mediators. Correlational analyses found positive associations among all the variables, and structural equation modeling indicated that perseverance enhances self compassion, which in turn promotes psychological flexibility, ultimately raising life satisfaction. The authors frame this chain as evidence for how perseverance supports well being and as guidance for interventions to reduce stress and foster resilience among higher education professionals.",
-   "coreIdea": "Perseverance supports life satisfaction in part because it builds self compassion and, through it, psychological flexibility.",
+   "abstract": "This cross sectional study of 305 academics in Turkiye tests how perseverance relates to life satisfaction, with self-compassion and psychological flexibility as parallel mediators. Correlational analyses found positive associations among all the variables, and structural equation modeling indicated that perseverance enhances self-compassion, which in turn promotes psychological flexibility, ultimately raising life satisfaction. The authors frame this chain as evidence for how perseverance supports well-being and as guidance for interventions to reduce stress and foster resilience among higher education professionals.",
+   "coreIdea": "Perseverance supports life satisfaction in part because it builds self-compassion and, through it, psychological flexibility.",
    "related": [],
    "doi": "10.1186/s40359-025-03757-y",
    "url": "https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-03757-y",
@@ -582,8 +582,8 @@ window.PSY355 = {
  ],
  "glossary": [
   {
-   "term": "Well Being",
-   "def": "Well being is a working state that helps a person cope, act, recover, and contribute, rather than a fixed mood or a private feeling. In this course it is treated as a capacity that shifts with conditions: rest, support, workload, and circumstance all move it. Naming well being this way matters for students, because it reframes a hard week as a change in conditions to manage, not proof of a flaw in the person.",
+   "term": "Well-Being",
+   "def": "Well being is a working state that helps a person cope, act, recover, and contribute, rather than a fixed mood or a private feeling. In this course it is treated as a capacity that shifts with conditions: rest, support, workload, and circumstance all move it. Naming well-being this way matters for students, because it reframes a hard week as a change in conditions to manage, not proof of a flaw in the person.",
    "cite": "Owen, J. (2023). Psychological resilience: Connecting contemporary psychology to ancient practical philosophy.",
    "week": 1
   },
@@ -619,7 +619,7 @@ window.PSY355 = {
   },
   {
    "term": "Monitoring",
-   "def": "Monitoring is the act of checking whether a strategy is actually working, before, during, or after a task. It is the part of self regulated learning that catches a plan failing while there is still time to respond. For a student, monitoring can be as simple as pausing to ask whether the reading is making sense or whether a study method is producing real recall, turning effort into feedback rather than guesswork.",
+   "def": "Monitoring is the act of checking whether a strategy is actually working, before, during, or after a task. It is the part of self-regulated learning that catches a plan failing while there is still time to respond. For a student, monitoring can be as simple as pausing to ask whether the reading is making sense or whether a study method is producing real recall, turning effort into feedback rather than guesswork.",
    "cite": "Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research.",
    "week": 2
   },
@@ -654,14 +654,14 @@ window.PSY355 = {
    "week": 3
   },
   {
-   "term": "Self Efficacy",
-   "def": "Self efficacy is the belief that one can take the actions needed for a specific task, rather than a general sense of being capable. Cassidy (2015) connects academic self efficacy to resilience, showing that task specific confidence shapes how students approach difficulty. Because it is tied to a particular task, self efficacy can be built deliberately: a student raises it by accumulating evidence that they can do the next concrete step, not by waiting to feel confident in general.",
+   "term": "Self-Efficacy",
+   "def": "Self efficacy is the belief that one can take the actions needed for a specific task, rather than a general sense of being capable. Cassidy (2015) connects academic self-efficacy to resilience, showing that task specific confidence shapes how students approach difficulty. Because it is tied to a particular task, self-efficacy can be built deliberately: a student raises it by accumulating evidence that they can do the next concrete step, not by waiting to feel confident in general.",
    "cite": "Cassidy, S. (2015). Resilience building in students: The role of academic self-efficacy.",
    "week": 4
   },
   {
    "term": "Mastery Experience",
-   "def": "A mastery experience is evidence from actually doing something that builds confidence for the next attempt. It is one of the strongest sources of self efficacy because it rests on what a student has done, not on encouragement alone. The practical move is to make the experience reachable: by defining the smallest next action that would count as real progress, a student can create proof of capability rather than waiting for confidence to arrive first.",
+   "def": "A mastery experience is evidence from actually doing something that builds confidence for the next attempt. It is one of the strongest sources of self-efficacy because it rests on what a student has done, not on encouragement alone. The practical move is to make the experience reachable: by defining the smallest next action that would count as real progress, a student can create proof of capability rather than waiting for confidence to arrive first.",
    "cite": "Cassidy, S. (2015). Resilience building in students: The role of academic self-efficacy.",
    "week": 4
   },
@@ -733,7 +733,7 @@ window.PSY355 = {
   },
   {
    "term": "Adversity",
-   "def": "Adversity is a difficult condition or event that can disrupt learning and well being. Lopez and colleagues (2021) frame adversity within social ecology, locating its weight in environments and circumstances rather than in individual weakness. For students, distinguishing adversity from the everyday pressure of a busy term helps keep responses proportionate, and it keeps the focus on the supports and adjustments a hard situation calls for rather than on self blame.",
+   "def": "Adversity is a difficult condition or event that can disrupt learning and well-being. Lopez and colleagues (2021) frame adversity within social ecology, locating its weight in environments and circumstances rather than in individual weakness. For students, distinguishing adversity from the everyday pressure of a busy term helps keep responses proportionate, and it keeps the focus on the supports and adjustments a hard situation calls for rather than on self blame.",
    "cite": "Lopez, M., Ruiz, M. O., Rovnaghi, C. R., Tam, G. K. Y., Hiscox, J., Gotlib, I. H., Barr, D. A., Carrion, V. G., and Anand, K. J. S. (2021). The social ecology of childhood and early life adversity.",
    "week": 7
   },
@@ -745,56 +745,56 @@ window.PSY355 = {
   },
   {
    "term": "Protective Factor",
-   "def": "A protective factor is a condition that reduces harm or supports adaptation, such as a strong relationship, a sense of competence, or reliable access to help. Cassidy (2015) treats academic self efficacy as one such factor in students facing difficulty. Naming protective factors gives students something concrete to build: rather than only removing stressors, they can strengthen the supports and skills that make pressure easier to carry and recovery more likely.",
+   "def": "A protective factor is a condition that reduces harm or supports adaptation, such as a strong relationship, a sense of competence, or reliable access to help. Cassidy (2015) treats academic self-efficacy as one such factor in students facing difficulty. Naming protective factors gives students something concrete to build: rather than only removing stressors, they can strengthen the supports and skills that make pressure easier to carry and recovery more likely.",
    "cite": "Cassidy, S. (2015). Resilience building in students: The role of academic self-efficacy.",
    "week": 7
   },
   {
-   "term": "Self Compassion",
-   "def": "Self compassion is a kind and accurate response to difficulty that supports learning and recovery, rather than indulgence or excuse making. Neff (2003) describes it as treating oneself with the same fairness one would offer a friend, while still seeing the situation clearly. For students, self compassion is a working tool: it removes the insult from a setback so that attention can move to the next action, which is usually more productive than harsh self criticism.",
+   "term": "Self-Compassion",
+   "def": "Self compassion is a kind and accurate response to difficulty that supports learning and recovery, rather than indulgence or excuse making. Neff (2003) describes it as treating oneself with the same fairness one would offer a friend, while still seeing the situation clearly. For students, self-compassion is a working tool: it removes the insult from a setback so that attention can move to the next action, which is usually more productive than harsh self criticism.",
    "cite": "Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself.",
    "week": 8
   },
   {
-   "term": "Self Acceptance",
-   "def": "Self acceptance is recognizing one's current situation without turning it into a final identity. It allows a student to acknowledge a hard reality, a missed deadline or a weak grade, while keeping the door open to change. Drawing on Neff's (2003) account, self acceptance is not resignation: it is the steadiness that lets a person face the truth of where they are without collapsing it into a fixed verdict about who they are.",
+   "term": "Self-Acceptance",
+   "def": "Self acceptance is recognizing one's current situation without turning it into a final identity. It allows a student to acknowledge a hard reality, a missed deadline or a weak grade, while keeping the door open to change. Drawing on Neff's (2003) account, self-acceptance is not resignation: it is the steadiness that lets a person face the truth of where they are without collapsing it into a fixed verdict about who they are.",
    "cite": "Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself.",
    "week": 8
   },
   {
    "term": "Self Criticism",
-   "def": "Self criticism is an inner response that may feel motivating but often narrows learning. Stephenson and colleagues (2018) link harsh self judgment to irrational beliefs and lower self compassion, suggesting that severe self talk tends to constrict rather than support. For students, the practical work is not to silence all self evaluation but to separate accurate, useful feedback from the insult layered on top of it, keeping the information and dropping the attack.",
+   "def": "Self criticism is an inner response that may feel motivating but often narrows learning. Stephenson and colleagues (2018) link harsh self judgment to irrational beliefs and lower self-compassion, suggesting that severe self talk tends to constrict rather than support. For students, the practical work is not to silence all self evaluation but to separate accurate, useful feedback from the insult layered on top of it, keeping the information and dropping the attack.",
    "cite": "Stephenson, E., Watson, P. J., Chen, Z. J., and Morris, R. J. (2018). Self-compassion, self-esteem, and irrational beliefs.",
    "week": 8
   },
   {
    "term": "Common Humanity",
-   "def": "Common humanity is the recognition that difficulty is part of shared human experience, not a private flaw that sets a person apart. In Neff's (2003) account it is a core element of self compassion, because seeing struggle as something people generally face reduces the isolation that intensifies it. For students, this recognition is steadying: a setback feels less like proof that they alone are failing and more like an ordinary part of learning that others meet too.",
+   "def": "Common humanity is the recognition that difficulty is part of shared human experience, not a private flaw that sets a person apart. In Neff's (2003) account it is a core element of self-compassion, because seeing struggle as something people generally face reduces the isolation that intensifies it. For students, this recognition is steadying: a setback feels less like proof that they alone are failing and more like an ordinary part of learning that others meet too.",
    "cite": "Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself.",
    "week": 8
   },
   {
    "term": "Psychological Flexibility",
-   "def": "Psychological flexibility is the ability to adapt thoughts, feelings, and actions while staying connected to one's values and goals. Nas and colleagues (2025) study it alongside perseverance and well being, treating it as the quality that lets a person keep moving without rigidly pushing past every limit. For students, flexibility is what distinguishes wise persistence from stubbornness: the goal holds steady while the strategy, and the willingness to adjust, stays open.",
-   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
+   "def": "Psychological flexibility is the ability to adapt thoughts, feelings, and actions while staying connected to one's values and goals. Nas and colleagues (2025) study it alongside perseverance and well-being, treating it as the quality that lets a person keep moving without rigidly pushing past every limit. For students, flexibility is what distinguishes wise persistence from stubbornness: the goal holds steady while the strategy, and the willingness to adjust, stays open.",
+   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self-compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
    "week": 9
   },
   {
    "term": "Perseverance",
-   "def": "Perseverance is continuing effort toward something that matters. Nas and colleagues (2025) examine it together with psychological flexibility, suggesting that healthy persistence is paired with the capacity to adapt rather than to grind blindly. For students, the useful version of perseverance is selective: it keeps effort pointed at a goal that is genuinely worth pursuing, while allowing the method to change, so that persistence supports well being rather than eroding it.",
-   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
+   "def": "Perseverance is continuing effort toward something that matters. Nas and colleagues (2025) examine it together with psychological flexibility, suggesting that healthy persistence is paired with the capacity to adapt rather than to grind blindly. For students, the useful version of perseverance is selective: it keeps effort pointed at a goal that is genuinely worth pursuing, while allowing the method to change, so that persistence supports well-being rather than eroding it.",
+   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self-compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
    "week": 9
   },
   {
    "term": "Strategy Shift",
-   "def": "A strategy shift is changing the method without abandoning the goal. It is the practical hinge of flexible persistence: the destination stays fixed while the route is revised when the current approach stops working. Drawing on the self regulated learning cycle that Panadero (2017) describes, a strategy shift is a normal and intelligent move rather than a retreat, because it keeps effort productive instead of locking a student into a method that is no longer paying off.",
+   "def": "A strategy shift is changing the method without abandoning the goal. It is the practical hinge of flexible persistence: the destination stays fixed while the route is revised when the current approach stops working. Drawing on the self-regulated learning cycle that Panadero (2017) describes, a strategy shift is a normal and intelligent move rather than a retreat, because it keeps effort productive instead of locking a student into a method that is no longer paying off.",
    "cite": "Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research.",
    "week": 9
   },
   {
    "term": "Values",
-   "def": "Values are the reasons that make a goal meaningful enough to pursue. They give persistence its direction, so that effort is anchored to something a student actually cares about rather than to pressure or habit. Nas and colleagues (2025) connect flexibility and perseverance to well being, and values are what keep that connection coherent: when the method has to change, a clear value tells a student what is worth continuing and why.",
-   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
+   "def": "Values are the reasons that make a goal meaningful enough to pursue. They give persistence its direction, so that effort is anchored to something a student actually cares about rather than to pressure or habit. Nas and colleagues (2025) connect flexibility and perseverance to well-being, and values are what keep that connection coherent: when the method has to change, a clear value tells a student what is worth continuing and why.",
+   "cite": "Nas, E., Taytas, M., and Vangolu, M. S. (2025). The role of self-compassion and psychological flexibility in the relationship between perseverance and life satisfaction among academics.",
    "week": 9
   },
   {
@@ -823,7 +823,7 @@ window.PSY355 = {
   },
   {
    "term": "Help Seeking",
-   "def": "Help seeking is a strategy for getting information, support, or feedback when independent effort is not enough. In the self regulated learning models Panadero (2017) reviews, it appears as a deliberate learning move, not a fallback for those who cannot manage. Reframing help seeking this way matters for students: asking for help becomes evidence of learning rather than evidence of weakness, and knowing when and how to ask is itself a skill worth practising.",
+   "def": "Help seeking is a strategy for getting information, support, or feedback when independent effort is not enough. In the self-regulated learning models Panadero (2017) reviews, it appears as a deliberate learning move, not a fallback for those who cannot manage. Reframing help seeking this way matters for students: asking for help becomes evidence of learning rather than evidence of weakness, and knowing when and how to ask is itself a skill worth practising.",
    "cite": "Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research.",
    "week": 11
   },
@@ -841,13 +841,13 @@ window.PSY355 = {
   },
   {
    "term": "Empathy",
-   "def": "Empathy is the effort to understand another person's experience without replacing it with one's own. Wrench, Punyanunt-Carter, and Thweatt (2020) treat it as central to mindful relationships, where understanding others supports clearer and more respectful communication. For students, empathy is both a relational skill and a learning one: it improves how requests and conflicts are handled, and it models the same accurate, non judgmental attention that self compassion asks a person to turn inward.",
+   "def": "Empathy is the effort to understand another person's experience without replacing it with one's own. Wrench, Punyanunt-Carter, and Thweatt (2020) treat it as central to mindful relationships, where understanding others supports clearer and more respectful communication. For students, empathy is both a relational skill and a learning one: it improves how requests and conflicts are handled, and it models the same accurate, non judgmental attention that self-compassion asks a person to turn inward.",
    "cite": "Wrench, J. S., Punyanunt-Carter, N. M., and Thweatt, K. S. (2020). Interpersonal communication: A mindful approach to relationships.",
    "week": 11
   },
   {
-   "term": "Holistic Well Being",
-   "def": "Holistic well being is a view of health that connects mind, body, relationships, work, study, and context, rather than treating any one technique or assignment as the whole picture. Owen (2023) links contemporary resilience to ancient practical philosophy, framing well being as a way of living rather than a single fix. For students, the holistic view guards against over relying on one method and invites a balance of practices that can hold up across the different parts of a life.",
+   "term": "Holistic Well-Being",
+   "def": "Holistic well-being is a view of health that connects mind, body, relationships, work, study, and context, rather than treating any one technique or assignment as the whole picture. Owen (2023) links contemporary resilience to ancient practical philosophy, framing well-being as a way of living rather than a single fix. For students, the holistic view guards against over relying on one method and invites a balance of practices that can hold up across the different parts of a life.",
    "cite": "Owen, J. (2023). Psychological resilience: Connecting contemporary psychology to ancient practical philosophy.",
    "week": 12
   },
@@ -871,7 +871,7 @@ window.PSY355 = {
   },
   {
    "term": "Integration",
-   "def": "Integration is bringing several course ideas together into one coherent plan. Rather than treating mindset, resilience, and self regulation as separate topics, integration asks how they work together for a real situation a student faces. Yeager and Dweck (2020) model the careful use of evidence that integration requires, weighing where a concept applies and where it does not, so that a personal plan rests on sound reasoning instead of a single appealing idea.",
+   "def": "Integration is bringing several course ideas together into one coherent plan. Rather than treating mindset, resilience, and self-regulation as separate topics, integration asks how they work together for a real situation a student faces. Yeager and Dweck (2020) model the careful use of evidence that integration requires, weighing where a concept applies and where it does not, so that a personal plan rests on sound reasoning instead of a single appealing idea.",
    "cite": "Yeager, D. S., and Dweck, C. S. (2020). What can be learned from growth mindset controversies?",
    "week": 13
   },
@@ -883,31 +883,31 @@ window.PSY355 = {
   },
   {
    "term": "Support Match",
-   "def": "A support match is choosing supports that fit the real situation a person is in. Cassidy (2015) shows that supports work when they connect to a student's actual needs and build genuine self efficacy, not when they are generic. For students planning their own resilience, the match matters more than the quantity of help: a well chosen support that fits the specific barrier does more than a long list of resources that do not address the real problem.",
+   "def": "A support match is choosing supports that fit the real situation a person is in. Cassidy (2015) shows that supports work when they connect to a student's actual needs and build genuine self-efficacy, not when they are generic. For students planning their own resilience, the match matters more than the quantity of help: a well chosen support that fits the specific barrier does more than a long list of resources that do not address the real problem.",
    "cite": "Cassidy, S. (2015). Resilience building in students: The role of academic self-efficacy.",
    "week": 13
   },
   {
    "term": "Evidence Based Practice",
-   "def": "Evidence based practice is a strategy connected to research or sound course reasoning, not just personal preference. It asks a student to support each part of a plan with a concept or finding rather than with a hunch. Neff's (2003) account of self compassion is one example of the kind of grounded basis this calls for: building a plan on tested ideas makes it more trustworthy and gives a student a clear reason to rely on it when conditions get hard.",
+   "def": "Evidence based practice is a strategy connected to research or sound course reasoning, not just personal preference. It asks a student to support each part of a plan with a concept or finding rather than with a hunch. Neff's (2003) account of self-compassion is one example of the kind of grounded basis this calls for: building a plan on tested ideas makes it more trustworthy and gives a student a clear reason to rely on it when conditions get hard.",
    "cite": "Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself.",
    "week": 13
   },
   {
    "term": "Transfer",
-   "def": "Transfer is using learning in a new situation beyond the original course task. It is the real test of whether a concept was learned: a student who can apply mindset, resilience, or self regulation ideas in work, family, or community life has carried the learning, not just passed the class. Transfer rarely happens automatically, so naming where a concept might apply next is part of making course learning durable rather than confined to the term.",
+   "def": "Transfer is using learning in a new situation beyond the original course task. It is the real test of whether a concept was learned: a student who can apply mindset, resilience, or self-regulation ideas in work, family, or community life has carried the learning, not just passed the class. Transfer rarely happens automatically, so naming where a concept might apply next is part of making course learning durable rather than confined to the term.",
    "cite": "Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research.",
    "week": 14
   },
   {
    "term": "Course Arc",
-   "def": "The course arc is the path from learning beliefs to resilience models to practical well being strategies. Naming the arc helps students see the term as one connected movement rather than a series of unrelated weeks. Owen (2023) ties resilience to a longer tradition of practical philosophy, which reinforces the point that the arc is cumulative: each part builds on the last, and the value of the whole comes from how the pieces fit together.",
+   "def": "The course arc is the path from learning beliefs to resilience models to practical well-being strategies. Naming the arc helps students see the term as one connected movement rather than a series of unrelated weeks. Owen (2023) ties resilience to a longer tradition of practical philosophy, which reinforces the point that the arc is cumulative: each part builds on the last, and the value of the whole comes from how the pieces fit together.",
    "cite": "Owen, J. (2023). Psychological resilience: Connecting contemporary psychology to ancient practical philosophy.",
    "week": 14
   },
   {
    "term": "Maintenance",
-   "def": "Maintenance is keeping a practice alive after the course structure ends. Without the rhythm of weekly classes and deadlines, a useful habit can quietly fade, so maintenance asks what will hold it in place once the external structure is gone. Drawing on the self regulated learning cycle Panadero (2017) describes, maintenance relies on the same monitoring and adjustment used during the term, now applied to sustaining a practice rather than completing an assignment.",
+   "def": "Maintenance is keeping a practice alive after the course structure ends. Without the rhythm of weekly classes and deadlines, a useful habit can quietly fade, so maintenance asks what will hold it in place once the external structure is gone. Drawing on the self-regulated learning cycle Panadero (2017) describes, maintenance relies on the same monitoring and adjustment used during the term, now applied to sustaining a practice rather than completing an assignment.",
    "cite": "Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research.",
    "week": 14
   },
