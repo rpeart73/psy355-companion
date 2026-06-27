@@ -13,7 +13,7 @@
 
   var SKEY = 'psy355corpus.v2';
   function load() { try { var o = JSON.parse(localStorage.getItem(SKEY) || '{}'); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; } }
-  function persist() { try { localStorage.setItem(SKEY, JSON.stringify({ saved: state.saved, layout: state.layout, introOpen: state.introOpen, cmpNotes: state.cmpNotes, rcNotes: state.rcNotes })); } catch (e) {} }
+  function persist() { try { localStorage.setItem(SKEY, JSON.stringify({ saved: state.saved, layout: state.layout, introOpen: state.introOpen, cmpNotes: state.cmpNotes, rcNotes: state.rcNotes, ecoChallenge: state.ecoChallenge, ecoNotes: state.ecoNotes })); } catch (e) {} }
   var saved0 = load();
 
   var state = {
@@ -35,6 +35,9 @@
     exampleOpen: false,
     rcReading: null,
     rcNotes: (saved0.rcNotes && typeof saved0.rcNotes === 'object') ? saved0.rcNotes : {},
+    ecoChallenge: saved0.ecoChallenge || '',
+    ecoNotes: (saved0.ecoNotes && typeof saved0.ecoNotes === 'object') ? saved0.ecoNotes : {},
+    ecoLayer: 'you',
     revealed: {},
     mcSel: {},
     libScroll: 0,
@@ -223,6 +226,7 @@
   function sidebar() {
     var s = state;
     var navDefs = [['library', 'Home', 'grid'], ['readings', 'Library of Readings', 'gallery'], ['compare', 'Compare Reading Concepts', 'columns'], ['reading', 'Build Your Reading Comprehension', 'book'], ['glossary', 'Glossary & Thinkers', 'book'], ['cards', 'Self-check', 'clipboard']];
+    if (D.course && D.course.code === 'PSY355') navDefs.push(['ecology', 'Resilience Ecology', 'layers']);
     var btns = navDefs.map(function (d) {
       var key = d[0], active = (key === 'library' && (s.screen === 'library' || s.screen === 'detail')) || s.screen === key;
       var badge = '';
@@ -871,6 +875,67 @@
       + '<div class="soc-cardgrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">' + list.map(card).join('') + '</div></div>';
   }
 
+  /* ---------- PSY355 Resilience Ecology (gated to PSY355) ---------- */
+  var ECO_LAYERS = [
+    { id: 'you', n: 1, label: 'You', short: 'You', r: 44, color: '#DA291C', anchor: 'Cassidy (2015); Yeager and Dweck (2020)', what: 'Academic self-efficacy, the belief that you can do this specific task, predicts resilience and can be built. A growth mindset helps, but it is bounded: belief alone does not overcome every obstacle.', prompt: 'Name one thing you can already do here, or one small win that shows you can grow at this.' },
+    { id: 'strategies', n: 2, label: 'Your strategies', short: 'Strategies', r: 80, color: '#1B2A4A', anchor: 'Panadero (2017); Neff (2003)', what: 'Self-regulated learning is a teachable cycle: plan, monitor, adjust. Self-compassion is how you treat yourself when a plan slips.', prompt: 'Name one concrete way you will plan, monitor, or adjust, and one kind thing you will tell yourself if it does not go to plan.' },
+    { id: 'people', n: 3, label: 'Your people', short: 'People', r: 116, color: '#1f7a4d', anchor: 'Wrench, Punyanunt-Carter and Thweatt (2020)', what: 'Help-seeking is a skill. Clear, mindful communication is what makes a request actually land.', prompt: 'Name one person you could ask for help, and exactly what you would ask them.' },
+    { id: 'course', n: 4, label: 'Your course and institution', short: 'Course', r: 152, color: '#B7791F', anchor: 'Yeager and colleagues (2019)', what: 'Whether a mindset works depends on context. The course and the institution already make supports available: office hours, services, accommodations.', prompt: 'Name one support the course or Seneca offers that you could actually use.' },
+    { id: 'context', n: 5, label: 'Your context and culture', short: 'Context', r: 190, color: '#3a47a8', anchor: 'Ungar (2011, 2013); Antony (2022)', what: 'Resilience is a quality of your whole social ecology, and what counts as resilience varies by context and culture. Support has to fit your real situation.', prompt: 'Name one thing in your wider life or community that supports you, or that you need to plan around.' }
+  ];
+  function ecoById(id) { for (var i = 0; i < ECO_LAYERS.length; i++) if (ECO_LAYERS[i].id === id) return ECO_LAYERS[i]; return ECO_LAYERS[0]; }
+  function ecoFilled(id) { return (((state.ecoNotes && state.ecoNotes[id]) || '') + '').trim().length > 0; }
+  function ecoCount() { var n = 0; ECO_LAYERS.forEach(function (L) { if (ecoFilled(L.id)) n++; }); return n; }
+  function ecoRingsSVG() {
+    var c = '', t = '';
+    for (var i = ECO_LAYERS.length - 1; i >= 0; i--) {
+      var L = ECO_LAYERS[i], on = state.ecoLayer === L.id, filled = ecoFilled(L.id);
+      c += '<circle id="psy-ring-' + L.id + '" cx="200" cy="200" r="' + L.r + '" fill="' + (filled ? L.color : '#E8EBF0') + '" stroke="' + (on ? '#15171C' : '#ffffff') + '" stroke-width="' + (on ? 3.5 : 2) + '" tabindex="0" role="button" aria-label="' + esc(L.label) + (filled ? ', filled' : ', empty') + ', layer ' + L.n + ' of 5" onclick="SOC.ecoLayer(\'' + L.id + '\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();SOC.ecoLayer(\'' + L.id + '\')}" style="cursor:pointer"></circle>';
+    }
+    for (var j = 0; j < ECO_LAYERS.length; j++) {
+      var Lj = ECO_LAYERS[j], y = (j === 0) ? 205 : Math.round(200 - (Lj.r + ECO_LAYERS[j - 1].r) / 2);
+      t += '<text x="200" y="' + y + '" text-anchor="middle" font-size="' + (j === 0 ? 13 : 11) + '" font-weight="700" fill="#15171C" stroke="#ffffff" stroke-width="3.2" style="paint-order:stroke;pointer-events:none" font-family="IBM Plex Sans, ui-sans-serif, sans-serif">' + esc(j === 0 ? 'YOU' : Lj.short) + '</text>';
+    }
+    return '<svg viewBox="0 0 400 400" width="100%" style="max-width:430px;display:block;margin:0 auto" role="group" aria-label="Your resilience ecology, five nested layers from You at the centre out to Context and culture">' + c + t + '</svg>';
+  }
+  function ecoLayerPanel(id) {
+    var L = ecoById(id), val = (state.ecoNotes && state.ecoNotes[id]) || '';
+    return '<div style="background:#fff;border:1px solid #DEE3EA;border-top:4px solid ' + L.color + ';border-radius:13px;padding:16px 18px">'
+      + '<div class="mono" style="font-size:.6875rem;letter-spacing:.05em;color:#8a909c;margin-bottom:6px">LAYER ' + L.n + ' OF 5</div>'
+      + '<h3 style="font-size:1.1875rem;font-weight:600;margin:0 0 4px;color:#15171C">' + esc(L.label) + '</h3>'
+      + '<div style="font-size:.72rem;font-weight:600;color:' + L.color + ';margin-bottom:10px">Grounded in ' + esc(L.anchor) + '</div>'
+      + '<p style="font-size:.875rem;line-height:1.55;color:#474C57;margin:0 0 12px">' + esc(L.what) + '</p>'
+      + '<label style="display:block"><span style="display:block;font-size:.875rem;font-weight:600;color:#15171C;margin-bottom:7px">' + esc(L.prompt) + '</span>'
+      + '<textarea oninput="SOC.ecoNote(\'' + L.id + '\',this.value)" placeholder="Your resource for this layer..." style="width:100%;min-height:96px;font:inherit;font-size:.9rem;line-height:1.5;padding:10px 12px;border:1px solid #DEE3EA;border-radius:8px;color:#15171C;background:#fff;resize:vertical">' + esc(val) + '</textarea></label>'
+      + '</div>';
+  }
+  function ecoChips() {
+    return '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;justify-content:center">' + ECO_LAYERS.map(function (L) {
+      var on = state.ecoLayer === L.id, done = ecoFilled(L.id);
+      return '<button onclick="SOC.ecoLayer(\'' + L.id + '\')" aria-pressed="' + on + '" style="display:inline-flex;align-items:center;gap:7px;border:1.5px solid ' + (on ? L.color : '#DEE3EA') + ';background:' + (on ? L.color + '14' : '#fff') + ';color:#15171C;border-radius:999px;padding:7px 13px;font-size:.8125rem;font-weight:600;cursor:pointer">'
+        + '<span style="display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:' + (done ? L.color : '#E8EBF0') + ';border:1.5px solid ' + (done ? L.color : '#CBD2DB') + ';color:#fff">' + (done ? ic('check', 10, 3) : '') + '</span>' + esc(L.short) + '</button>';
+    }).join('') + '</div>';
+  }
+  function ecologyScreen() {
+    var active = state.ecoLayer || 'you';
+    var challenge = '<div style="background:#fff;border:1px solid #DEE3EA;border-radius:12px;padding:14px 16px;margin:0 0 18px"><label style="display:block"><span style="display:block;font-size:.8125rem;font-weight:600;color:#474C57;margin-bottom:7px">Name one academic challenge you are facing this term</span><input value="' + esc(state.ecoChallenge || '') + '" oninput="SOC.ecoChallenge(this.value)" placeholder="for example, staying on top of readings in a heavy course load" style="width:100%;font:inherit;font-size:.95rem;padding:10px 13px;border:1px solid #DEE3EA;border-radius:9px;color:#15171C;background:#F7F8FA"></label></div>';
+    var count = '<p style="font-size:.8rem;color:#6b7280;margin:12px 0 0;text-align:center"><span id="psy-ecocount">' + ecoCount() + ' of 5</span> layers filled. Resilience builds as the outer layers fill, not from the centre alone.</p>';
+    var save = '<div style="margin-top:18px"><button onclick="SOC.saveResiliencePlan()" style="background:var(--red);border:none;color:#fff;border-radius:9px;padding:10px 18px;font-size:.875rem;font-weight:600;cursor:pointer">Save my Personal Resilience Plan (.docx)</button></div>';
+    var support = '<div style="display:flex;align-items:flex-start;gap:10px;background:#EAF1F0;border:1px solid #BFD8D2;border-radius:12px;padding:13px 16px;margin-top:16px;color:#1f4d38;font-size:.83rem;line-height:1.55"><span style="display:flex;flex:none;margin-top:1px">' + ic('check', 16) + '</span><span>This is a study and mindset planning tool, not therapy or a clinical assessment. If you are struggling with your wellbeing, Seneca Counselling and Accessible Learning Services are there for exactly that. Asking for help is a skill, not a failure.</span></div>';
+    return '<div class="rise">'
+      + '<div class="mono" style="font-size:.75rem;letter-spacing:.06em;color:var(--red);font-weight:600;margin-bottom:8px">RESILIENCE ECOLOGY</div>'
+      + '<h1 style="font-size:1.75rem;line-height:1.2;font-weight:600;margin:0 0 8px;color:#15171C">Build your resilience ecology.</h1>'
+      + '<p style="font-size:.9375rem;line-height:1.55;color:#474C57;margin:0 0 6px;max-width:80ch">Resilience is not grit at the centre. The course evidence says it is an ecology of resources across nested layers, and a process you move through. Pick a real challenge, then fill each layer with one resource you can actually reach.</p>'
+      + '<p style="font-size:.85rem;line-height:1.5;color:#6b7280;margin:0 0 16px;max-width:80ch">A hard stretch is a stage to move through, not a verdict on who you are (Richardson, 2011).</p>'
+      + challenge
+      + '<div class="psy-ecogrid">'
+      + '<div><div id="psy-ecorings">' + ecoRingsSVG() + '</div><div id="psy-ecochips">' + ecoChips() + '</div>' + count + '</div>'
+      + '<aside id="psy-ecopanel">' + ecoLayerPanel(active) + '</aside>'
+      + '</div>'
+      + save + support
+      + '</div>';
+  }
+
   /* ---------- render ---------- */
   function homeBar() {
     return '<button onclick="SOC.go(\'library\')" style="display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid #DEE3EA;border-radius:8px;padding:8px 14px;font-size:.875rem;font-weight:600;color:#15171C;margin-bottom:18px;cursor:pointer">&#8592; Return to Home</button>';
@@ -882,6 +947,7 @@
     if (state.screen === 'reading') return homeBar() + readingComp();
     if (state.screen === 'glossary') return homeBar() + glossaryScreen();
     if (state.screen === 'cards') return homeBar() + cardsScreen();
+    if (state.screen === 'ecology' && D.course && D.course.code === 'PSY355') return homeBar() + ecologyScreen();
     return library();
   }
   function render() {
@@ -953,6 +1019,18 @@
     rcPick: function (id) { state.rcReading = id; state.lens = 'thematic'; persist(); render(); topScroll(); },
     rcClear: function () { state.rcReading = null; render(); topScroll(); },
     rcNote: function (k, v) { state.rcNotes[k] = v; persist(); },
+    ecoLayer: function (id) { state.ecoLayer = id; var p = document.getElementById('psy-ecopanel'); if (p) p.innerHTML = ecoLayerPanel(id); var r = document.getElementById('psy-ecorings'); if (r) r.innerHTML = ecoRingsSVG(); var c = document.getElementById('psy-ecochips'); if (c) c.innerHTML = ecoChips(); },
+    ecoNote: function (id, v) { state.ecoNotes[id] = v; persist(); var L = ecoById(id), done = (v + '').trim().length > 0; var ring = document.getElementById('psy-ring-' + id); if (ring) ring.setAttribute('fill', done ? L.color : '#E8EBF0'); var c = document.getElementById('psy-ecochips'); if (c) c.innerHTML = ecoChips(); var cn = document.getElementById('psy-ecocount'); if (cn) cn.textContent = ecoCount() + ' of 5'; },
+    ecoChallenge: function (v) { state.ecoChallenge = v; persist(); },
+    saveResiliencePlan: function () {
+      var sections = [
+        { h: 'My academic challenge', t: (state.ecoChallenge || '').trim() || '(not named yet)' },
+        { h: 'How to hold it', t: 'A hard stretch is a stage to move through, not a verdict (Richardson, 2011). Resilience builds across the whole ecology of resources, not from grit alone (Ungar, 2011 and 2013).' }
+      ];
+      ECO_LAYERS.forEach(function (L) { sections.push({ h: 'Layer ' + L.n + ', ' + L.label + ' (' + L.anchor + ')', t: (((state.ecoNotes && state.ecoNotes[L.id]) || '') + '').trim() }); });
+      sections.push({ h: 'A note on support', t: 'This plan is an academic and mindset tool, not a clinical assessment. Seneca Counselling and Accessible Learning Services are available for wellbeing support; asking for help is a skill.' });
+      senecaDoc('PSY355', 'Personal Resilience Plan', ['PSY355 Psychology of Learning: Mindset and Resilience', 'Built from your Resilience Ecology'], sections, 'PSY355_personal_resilience_plan');
+    },
     rcReveal: function (k) { var m = document.getElementById('soc-main'); var top = m ? m.scrollTop : 0; state.revealed[k] = !state.revealed[k]; render(); var m2 = document.getElementById('soc-main'); if (m2) m2.scrollTop = top; },
     mcPick: function (k, i) { var m = document.getElementById('soc-main'); var top = m ? m.scrollTop : 0; state.mcSel[k] = i; render(); var m2 = document.getElementById('soc-main'); if (m2) m2.scrollTop = top; },
     mcReset: function (id) { var m = document.getElementById('soc-main'); var top = m ? m.scrollTop : 0; var keep = {}; Object.keys(state.mcSel).forEach(function (k) { if (k.indexOf(id + '|mc|') !== 0) keep[k] = state.mcSel[k]; }); state.mcSel = keep; render(); var m2 = document.getElementById('soc-main'); if (m2) m2.scrollTop = top; },
