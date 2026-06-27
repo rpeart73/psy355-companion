@@ -13,7 +13,7 @@ window.PSY355 = {
    "ink": "#2c557f",
    "border": "#c4d4e6"
   },
-  "selfregulation": {
+  "self-regulation": {
    "name": "Self-Regulated Learning & Strategy",
    "accent": "#4C5FD5",
    "soft": "#E7E9FB",
@@ -41,7 +41,7 @@ window.PSY355 = {
    "ink": "#0b5563",
    "border": "#b9e0e8"
   },
-  "wellbeing": {
+  "well-being": {
    "name": "Well-Being & Self-Compassion",
    "accent": "#B83280",
    "soft": "#F6E4F0",
@@ -110,6 +110,7 @@ window.PSY355 = {
   "neff2003|stephenson2018": "Neff defines self-compassion as a kind and accurate response to difficulty, while Stephenson and colleagues link harsh self criticism to irrational beliefs and lower self-compassion. Read together, they describe the same inner terrain from opposite ends. Neff names the healthier response, and Stephenson and colleagues document the cost of its absence. The difference is direction: one builds the case for treating oneself fairly, the other shows what severe self judgment does to learning. The takeaway is that self-compassion is not indulgence but a working tool, because the harsh self talk Stephenson and colleagues study tends to constrict rather than motivate, while the accurate, humane response Neff describes frees attention for the next action."
  },
  "records": [
+  {"id": "bandura1997", "eye": "western", "type": "Book", "access": "library", "title": "Self-efficacy: The exercise of control", "authors": "Albert Bandura", "year": 1997, "themes": ["self-efficacy", "motivation"], "origin": "United States", "len": "Book (read the assigned sections)", "diff": 4, "week": 4, "abstract": "Bandura's foundational account of self-efficacy: the belief in one's capacity to organize and carry out the actions a situation requires. He identifies four sources of self-efficacy, mastery experiences (past successes), vicarious experience (seeing others like you succeed), social persuasion (credible encouragement), and physiological and affective states, with mastery experiences the strongest. Self-efficacy shapes the goals people set, the effort they invest, and how long they persist when a task gets hard.", "coreIdea": "Self-efficacy, the belief in your capacity to carry out what a task needs, is built mainly through mastery experiences and shapes the effort and persistence you bring to a challenge.", "related": [], "url": "", "fulltext": false},
   {
    "id": "owen2023",
    "eye": "western",
@@ -119,7 +120,7 @@ window.PSY355 = {
    "authors": "Joel Owen",
    "year": 2023,
    "themes": [
-    "wellbeing",
+    "well-being",
     "resilience"
    ],
    "origin": "United Kingdom",
@@ -199,7 +200,7 @@ window.PSY355 = {
    "authors": "Ernesto Panadero",
    "year": 2017,
    "themes": [
-    "selfregulation"
+    "self-regulation"
    ],
    "origin": "Spain",
    "len": "~40 min read",
@@ -424,7 +425,7 @@ window.PSY355 = {
    "year": 2024,
    "themes": [
     "resilience",
-    "wellbeing"
+    "well-being"
    ],
    "origin": "United States",
    "len": "~30 min read",
@@ -448,7 +449,7 @@ window.PSY355 = {
    "authors": "Kristin Neff",
    "year": 2003,
    "themes": [
-    "wellbeing"
+    "well-being"
    ],
    "origin": "United States",
    "len": "~30 min read",
@@ -471,7 +472,7 @@ window.PSY355 = {
    "authors": "Erin Stephenson, P. J. Watson, Zhuo Job Chen, and Ronald J. Morris",
    "year": 2018,
    "themes": [
-    "wellbeing"
+    "well-being"
    ],
    "origin": "United States",
    "len": "~25 min read",
@@ -494,7 +495,7 @@ window.PSY355 = {
    "authors": "Esref Nas, Metin Taytas, and Mehmet Siddik Vangolu",
    "year": 2025,
    "themes": [
-    "wellbeing",
+    "well-being",
     "resilience"
    ],
    "origin": "Turkey",
@@ -566,7 +567,7 @@ window.PSY355 = {
    "authors": "Jason S. Wrench, Narissra M. Punyanunt-Carter, and Katherine S. Thweatt",
    "year": 2020,
    "themes": [
-    "wellbeing",
+    "well-being",
     "metacognition"
    ],
    "origin": "United States",
